@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.link{
+    @apply text-blue-400 cursor-pointer
+}
+
+.subTitulo{
+    @apply text-yellow-300 my-2 text-xl 
+}
+
+.customYellow{
+    @apply bg-[#b2b20b]
+}
+
+.textYellow{
+    @apply text-[#eded00]
+}
+
+.customBlack{
+    @apply bg-[#222222]
+}
+
+.customLightBlack{
+    @apply bg-[#262626]
+}
+
+.icon{
+    @apply w-16 h-16 textYellow 
+}
+
+.noob{
+    background-image: url('../assets/noob.png') ;
+ }
